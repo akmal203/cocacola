@@ -3,10 +3,10 @@ const axios = require('axios');
 const { HttpsProxyAgent } = require('https-proxy-agent');
 
 // Config
-const TELEGRAM_BOT_TOKEN = '7662277377:AAFaXz6G_3NuFIgbX8XONwaEEPqtoKtLiL4';
-const TELEGRAM_CHAT_ID = '1236786198';
+const TELEGRAM_BOT_TOKEN = 'ISI TOKEN BOT TELE';
+const TELEGRAM_CHAT_ID = 'ISI CHATID TELE';
 const TOKEN = fs.readFileSync('./token.txt', 'utf-8').trim();
-const PROXY = 'http://5a1f029e4000863128d0__cr.id:e480f23c0937f486@gw.dataimpulse.com:823'; // optional
+const PROXY = 'ISI PROXY'; // proxy wajib rotating
 const httpsAgent = new HttpsProxyAgent(PROXY);
 
 // Load semua kode dari file
